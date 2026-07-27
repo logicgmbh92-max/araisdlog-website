@@ -237,7 +237,7 @@ export default function TermsPage() {
     <main className="legal-page">
       <header className="legal-nav">
         <Link className="brand" href="/" aria-label="Back to ArAIsDLOG home">
-          <img className="brand-logo" src="/araisdlog-brand.png" alt="" aria-hidden="true" />
+          <img className="brand-logo" src="/araisdlog-euipo-logo-transparent.png" alt="" aria-hidden="true" />
           <span>ArAIs<span>DLOG</span></span>
         </Link>
         <Link href="/">← Back to product</Link>
@@ -267,9 +267,9 @@ export default function TermsPage() {
       </div>
 
       <footer className="legal-footer">
-        <Link className="brand footer-brand" href="/"><img className="brand-logo" src="/araisdlog-brand.png" alt="" aria-hidden="true" /><span>ArAIs<span>DLOG</span></span></Link>
+        <Link className="brand footer-brand" href="/"><img className="brand-logo" src="/araisdlog-euipo-logo-transparent.png" alt="" aria-hidden="true" /><span>ArAIs<span>DLOG</span></span></Link>
         <p>Deterministic control infrastructure for operational AI governance.</p>
-        <div><Link href="/">Product</Link><Link href="/terms">Terms and Conditions</Link><Link href="/disclaimer">Disclaimer</Link><a href="https://www.logik-systems.com" target="_blank" rel="noreferrer">www.logik-systems.com</a><a href="mailto:compliance@logik-systems.com">Contact</a></div>
+        <div><Link href="/">Product</Link><Link href="/terms">Terms and Conditions</Link><Link href="/disclaimer">Disclaimer</Link> · <Link href="/privacy">Privacy</Link><a href="https://www.logik-systems.com" target="_blank" rel="noreferrer">www.logik-systems.com</a><a href="mailto:compliance@logik-systems.com">Contact</a></div>
         <small>© 2026 Logik Systems OOD. ArAIsDLOG does not provide legal advice, certification or a guarantee of regulatory conformity.</small>
       </footer>
     </main>
