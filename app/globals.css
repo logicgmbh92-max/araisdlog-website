@@ -34,7 +34,7 @@ button { font: inherit; }
 .menu-button { display: none; }
 
 .hero {
-  min-height: 980px; padding: 125px 5vw 58px; background: radial-gradient(circle at 76% 32%,#123b54 0,#071b2b 25%,#040d15 60%); color: var(--white); position: relative; overflow: hidden;
+  min-height: 1040px; padding: 125px 5vw 58px; background: radial-gradient(circle at 76% 32%,#123b54 0,#071b2b 25%,#040d15 60%); color: var(--white); position: relative; overflow: hidden;
   display: grid; grid-template-columns: 1.05fr .95fr; gap: 5vw; align-items: center;
 }
 .hero-grid { position: absolute; inset: 0; opacity: .2; background-image: linear-gradient(rgba(24,217,255,.12) 1px, transparent 1px), linear-gradient(90deg,rgba(24,217,255,.12) 1px,transparent 1px); background-size: 70px 70px; mask-image: linear-gradient(to right, black, transparent 88%); }
@@ -60,9 +60,9 @@ h1 em,h2 em { font-family: Georgia, serif; font-weight: 400; color: var(--acid);
 .hero-flow small { font: 500 9px monospace; color: #718b98; margin-top: 3px; }
 .hero-flow > i { font-style: normal; color: #3f6577; }
 
-.hero-visual { min-height: 820px; display: block; position: relative; }
+.hero-visual { min-height: 880px; display: block; position: relative; }
 .registered-mark {
-  position: absolute; z-index: 4; width: min(310px,56%); pointer-events: none; top: 0; right: 1%;
+  position: absolute; z-index: 4; width: min(280px,52%); pointer-events: none; top: 0; right: 1%;
   background: transparent;
 }
 .registered-mark::before {
