@@ -60,7 +60,7 @@ h1 em,h2 em { font-family: Georgia, serif; font-weight: 400; color: var(--acid);
 .hero-visual { min-height: 680px; display: block; position: relative; }
 .registered-mark {
   position: absolute; z-index: 4; width: min(278px,49%); pointer-events: none; top: -28px; right: -8px;
-  background: transparent; isolation: isolate;
+  background: transparent;
 }
 .registered-mark::before {
   content: ""; position: absolute; inset: 7% 2% 3%; z-index: -1;
