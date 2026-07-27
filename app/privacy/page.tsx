@@ -4,6 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Privacy Notice | ArAIsDLOG",
   description: "Privacy information for visitors and business contacts of ArAIsDLOG.",
+  alternates: { canonical: "/privacy" },
 };
 
 const sections = [
