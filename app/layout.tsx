@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.araisdlog.com"),
   title: "ArAIsDLOG — Deterministic AI Governance",
   description:
     "The deterministic control layer for operational AI governance: system scope, controls, evidence lineage, recurring confirmations and audit-ready state.",
@@ -28,11 +29,18 @@ export const metadata: Metadata = {
     title: "ArAIsDLOG — AI governance that can prove its state",
     description:
       "Operational AI governance with deterministic state, evidence lineage and recurring control confirmation.",
+    url: "https://www.araisdlog.com/",
+    siteName: "ArAIsDLOG",
     type: "website",
+    images: [{ url: "/araisdlog-euipo-logo-transparent.png", width: 512, height: 512, alt: "ArAIsDLOG" }],
   },
-  other: {
-    "codex-preview": "development",
+  twitter: {
+    card: "summary_large_image",
+    title: "ArAIsDLOG — AI governance that can prove its state",
+    description: "Operational AI governance with deterministic state, evidence lineage and recurring control confirmation.",
+    images: ["/araisdlog-euipo-logo-transparent.png"],
   },
+  alternates: { canonical: "/" },
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
