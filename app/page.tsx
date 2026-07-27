@@ -88,7 +88,7 @@ export default function Home() {
     <main>
       <nav className="nav">
         <a className="brand" href="#top" aria-label="ArAIsDLOG home">
-          <img className="brand-logo" src="/araisdlog-brand.png" alt="" aria-hidden="true" />
+          <img className="brand-logo" src="/araisdlog-euipo-logo-transparent.png" alt="" aria-hidden="true" />
           <span>ArAIs<span>DLOG</span></span>
         </a>
         <button className="menu-button" onClick={() => setMenuOpen(!menuOpen)} aria-expanded={menuOpen} aria-label="Toggle navigation">
@@ -128,7 +128,7 @@ export default function Home() {
         <div className="hero-visual">
           <div className="registered-mark">
             <span className="registered-mark-label">REGISTERED PRODUCT MARK</span>
-            <img src="/araisdlog-euipo-logo.jpg" alt="Registered ArAIsDLOG product logo: silver shield, circuitry and connected control nodes" />
+            <img src="/araisdlog-euipo-logo-transparent.png" alt="Registered ArAIsDLOG product logo: silver shield, circuitry and connected control nodes" />
           </div>
           <div className="hero-console" aria-label="Product state example">
             <div className="console-top">
@@ -386,7 +386,7 @@ export default function Home() {
       </section>
 
       <footer>
-        <a className="brand footer-brand" href="#top"><img className="brand-logo" src="/araisdlog-brand.png" alt="" aria-hidden="true" /><span>ArAIs<span>DLOG</span></span></a>
+        <a className="brand footer-brand" href="#top"><img className="brand-logo" src="/araisdlog-euipo-logo-transparent.png" alt="" aria-hidden="true" /><span>ArAIs<span>DLOG</span></span></a>
         <p>Deterministic control infrastructure for operational AI governance.</p>
         <div><a href="#product">Product</a><a href="#architecture">Architecture</a><a href="#compare">Why us</a><a href="#insights">News & tutorials</a><a href="#pricing">Plans</a></div>
         <div><a href="#contact">Feedback & contact</a><a href="https://www.logik-systems.com" target="_blank" rel="noreferrer">www.logik-systems.com</a><a href="/terms">Terms and Conditions</a><a href="/disclaimer">Disclaimer</a><a href="mailto:compliance@logik-systems.com?subject=ArAIsDLOG%20legal%20information">Legal / EUIPO information</a><a href="mailto:compliance@logik-systems.com?subject=ArAIsDLOG%20privacy">Privacy</a></div>
