@@ -4,6 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Disclaimer | ArAIsDLOG",
   description: "Legal, regulatory and product disclaimer for the ArAIsDLOG platform and website.",
+  alternates: { canonical: "/disclaimer" },
 };
 
 const sections = [

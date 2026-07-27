@@ -56,6 +56,8 @@ const extensions = [
   ["SEMANTIC / IoT", "Connected operational context", "Map devices, data sources and semantic system context into the governed AI-system boundary."],
   ["WISE / API", "Governed API keys", "Controlled integration patterns for exchanging evidence and status while keeping ownership and access explicit."],
   ["EXPERT REVIEW", "Human assurance", "Create review-ready records for legal counsel, auditors and other qualified experts without replacing their professional judgment."],
+  ["JIRA / VALIDATED", "Accountable remediation", "Create a traceable path from governance findings to assigned work, accountable ownership, due dates and remediation status."],
+  ["SLACK / VALIDATED", "Operational escalation", "Route governance reminders and escalation signals into the collaboration channel where responsible teams already work."],
 ];
 
 const insights = [
@@ -98,6 +100,7 @@ export default function Home() {
           <a href="#product" onClick={() => setMenuOpen(false)}>Product</a>
           <a href="#architecture" onClick={() => setMenuOpen(false)}>Architecture</a>
           <a href="#compare" onClick={() => setMenuOpen(false)}>Why ArAIsDLOG</a>
+          <a href="#integrations" onClick={() => setMenuOpen(false)}>Integrations</a>
           <a href="#resources" onClick={() => setMenuOpen(false)}>EU AI Act</a>
           <a href="#insights" onClick={() => setMenuOpen(false)}>Insights</a>
           <a href="#pricing" onClick={() => setMenuOpen(false)}>Plans</a>
@@ -311,13 +314,13 @@ export default function Home() {
         <div className="gdpr-band"><b>GDPR FOCUS</b><strong>AI governance and data protection—connected, not confused.</strong><p>ArAIsDLOG keeps purpose, ownership, evidence and review context available to privacy teams while maintaining a distinct EU AI Act control model.</p></div>
       </section>
 
-      <section className="section integrations">
+      <section className="section integrations" id="integrations">
         <div className="section-kicker light">08 / DEPLOYMENT & INTEGRATION OPTIONS</div>
-        <div className="integration-head"><h2>Fit governance to<br />the real environment.</h2><p>From office evaluation to local infrastructure and connected systems, the deployment boundary is defined explicitly before implementation.</p></div>
+        <div className="integration-head"><h2>Fit governance to<br />the real environment.</h2><p>Validated Jira and Slack paths connect governance findings, accountable work and escalation with the systems enterprise teams already use. Deployment boundaries remain explicit before implementation.</p></div>
         <div className="extension-grid">
           {extensions.map(([tag, title, body]) => <article key={tag}><span>{tag}</span><h3>{title}</h3><p>{body}</p></article>)}
         </div>
-        <p className="scope-note">Local, hardware, IoT, semantic and API capabilities are scoped options. Availability, security architecture and implementation effort depend on the agreed deployment.</p>
+        <p className="scope-note">Jira and Slack are validated integration paths. Local, hardware, IoT, semantic and API capabilities remain scoped options; availability, security architecture and implementation effort depend on the agreed deployment.</p>
       </section>
 
       <section className="section insights" id="insights">
@@ -389,7 +392,7 @@ export default function Home() {
         <a className="brand footer-brand" href="#top"><img className="brand-logo" src="/araisdlog-euipo-logo-transparent.png" alt="" aria-hidden="true" /><span>ArAIs<span>DLOG</span></span></a>
         <p>Deterministic control infrastructure for operational AI governance.</p>
         <div><a href="#product">Product</a><a href="#architecture">Architecture</a><a href="#compare">Why us</a><a href="#insights">News & tutorials</a><a href="#pricing">Plans</a></div>
-        <div><a href="#contact">Feedback & contact</a><a href="https://www.logik-systems.com" target="_blank" rel="noreferrer">www.logik-systems.com</a><a href="/terms">Terms and Conditions</a><a href="/disclaimer">Disclaimer</a><a href="mailto:compliance@logik-systems.com?subject=ArAIsDLOG%20legal%20information">Legal / EUIPO information</a><a href="/privacy">Privacy</a></div>
+        <div><a href="#contact">Feedback & contact</a><a href="https://www.logik-systems.com" target="_blank" rel="noreferrer">www.logik-systems.com</a><a href="/terms">Terms and Conditions</a><a href="/disclaimer">Disclaimer</a><a href="mailto:compliance@logik-systems.com?subject=ArAIsDLOG%20legal%20information">Legal / EUIPO information</a><a href="/privacy">Privacy</a><a href="https://www.logik-systems.com/trust" target="_blank" rel="noreferrer">Trust Center</a></div>
         <small>© 2026 Logik Systems OOD. ArAIsDLOG™ is a figurative European Union trade mark application of Logik Systems OOD, EUTM application No. 019396329, filed 17 July 2026. Product information is not legal advice, certification or a guarantee of regulatory conformity. Third-party trade marks belong to their respective owners.</small>
       </footer>
     </main>

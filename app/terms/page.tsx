@@ -4,6 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Terms and Conditions | ArAIsDLOG",
   description: "Business terms governing access to and use of the ArAIsDLOG platform and related services.",
+  alternates: { canonical: "/terms" },
 };
 
 const sections = [

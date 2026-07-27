@@ -177,8 +177,8 @@ h1 em,h2 em { font-family: Georgia, serif; font-weight: 400; color: var(--acid);
 
 .integrations { background: linear-gradient(145deg,#06111a,#0a2638); color: var(--white); }
 .integration-head p { color: #9babb3; }
-.extension-grid { display: grid; grid-template-columns: repeat(4,1fr); margin-top: 65px; border-top: 1px solid #2c5063; }
-.extension-grid article { min-height: 270px; padding: 28px; border-right: 1px solid #2c5063; }.extension-grid article:last-child { border-right: 0; }
+.extension-grid { display: grid; grid-template-columns: repeat(3,1fr); margin-top: 65px; border-top: 1px solid #2c5063; }
+.extension-grid article { min-height: 270px; padding: 28px; border-right: 1px solid #2c5063; border-bottom: 1px solid #2c5063; }.extension-grid article:nth-child(3n) { border-right: 0; }
 .extension-grid span { color: var(--acid); }.extension-grid h3 { margin: 48px 0 15px; font-size: 21px; }.extension-grid p { color: #96a9b2; font-size: 13px; line-height: 1.65; }
 .scope-note { color: #708794; border-top: 1px solid #2c5063; padding-top: 22px; font-size: 10px; line-height: 1.6; }
 
