@@ -58,10 +58,17 @@ h1 em,h2 em { font-family: Georgia, serif; font-weight: 400; color: var(--acid);
 .hero-flow > i { font-style: normal; color: #3f6577; }
 
 .hero-visual { min-height: 680px; display: block; position: relative; }
-.registered-mark { position: absolute; z-index: 4; width: min(230px,42%); text-align: center; pointer-events: none; top: -62px; right: 0; }
-.registered-mark::before { content: ""; position: absolute; inset: 10% 12% 20%; background: radial-gradient(circle,rgba(24,217,255,.27),transparent 66%); filter: blur(20px); }
-.registered-mark img { width: 100%; height: 285px; object-fit: contain; position: relative; display: block; filter: drop-shadow(0 0 14px rgba(24,217,255,.55)); }
-.registered-mark span { display: none; }
+.registered-mark {
+  position: absolute; z-index: 4; width: min(244px,44%); pointer-events: none; top: -54px; right: 0;
+  padding: 9px; background: rgba(251,253,255,.97); border: 1px solid rgba(112,232,255,.72);
+  box-shadow: 0 0 0 5px rgba(24,217,255,.06), 0 18px 45px rgba(0,0,0,.34), 0 0 30px rgba(24,217,255,.2);
+}
+.registered-mark::before { content: ""; position: absolute; inset: -22px; z-index: -1; background: radial-gradient(circle,rgba(24,217,255,.22),transparent 68%); filter: blur(18px); }
+.registered-mark img { width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; position: relative; display: block; }
+.registered-mark-label {
+  display: block; padding: 2px 3px 8px; color: #477180; font: 800 7px/1 monospace;
+  letter-spacing: .13em; text-align: right;
+}
 .hero-console { position: absolute; left: 0; bottom: 0; z-index: 3; background: rgba(8,25,37,.96); border: 1px solid #2e566a; box-shadow: 20px 25px 0 rgba(0,0,0,.24),0 0 34px rgba(24,217,255,.12); max-width: 530px; width: 92%; backdrop-filter: blur(12px); }
 .console-top,.console-foot { padding: 14px 18px; display: flex; justify-content: space-between; border-bottom: 1px solid #343730; font: 700 9px/1 monospace; letter-spacing: .08em; color: #7f8278; }
 .live { color: var(--acid); }.live i { display: inline-block; width: 6px; height: 6px; background: var(--acid); border-radius: 50%; box-shadow: 0 0 8px var(--acid); }
@@ -224,7 +231,7 @@ footer > div { display: flex; flex-direction: column; gap: 13px; } footer > div 
 @media (max-width: 680px) {
   .section { padding: 78px 6vw; }.hero { min-height: auto; padding: 125px 6vw 60px; }.hero-actions,.proof-row { align-items: flex-start; flex-direction: column; }.proof-row { gap: 15px; }
   .brand { font-size: 18px; gap: 8px; }.brand-logo { width: 45px; height: 63px; }
-  h1 { font-size: 54px; }.hero-lead { font-size: 15px; }.hero-flow { grid-template-columns: 1fr; gap: 13px; }.hero-flow > i { display: none; }.hero-visual { min-height: 850px; }.registered-mark { width: 54%; right: -2%; top: 0; }.registered-mark img { height: auto; max-height: 300px; }.hero-console { width: 100%; max-width: none; box-shadow: 8px 10px 0 rgba(0,0,0,.2); }.state-ring { grid-template-columns: 1fr; }.ring { margin: auto; }
+  h1 { font-size: 54px; }.hero-lead { font-size: 15px; }.hero-flow { grid-template-columns: 1fr; gap: 13px; }.hero-flow > i { display: none; }.hero-visual { min-height: 850px; }.registered-mark { width: min(210px,58%); right: 0; top: 0; }.hero-console { width: 100%; max-width: none; box-shadow: 8px 10px 0 rgba(0,0,0,.2); }.state-ring { grid-template-columns: 1fr; }.ring { margin: auto; }
   .intro { grid-template-columns: 1fr; }.definition-card { grid-column: auto; }.logic-chain { grid-template-columns: 1fr; }.logic-chain > i { transform: rotate(90deg); justify-self: center; }.control-grid,.plan-grid,.act-grid,.extension-grid,.insight-grid { grid-template-columns: 1fr; }.plan-grid article.featured { transform: none; }
   .act-grid article,.extension-grid article { border-right: 0; border-bottom: 1px solid var(--line); }.gdpr-band { grid-template-columns: 1fr; }.news-strip .button,.contact-actions .button { width: 100%; }
   .compare-row { grid-template-columns: 1fr; gap: 10px; }.compare-row.table-head { display: none; }.compare-row > span { padding-bottom: 5px; }.compare-row > span:nth-child(2)::before { content: "TYPICAL FOCUS"; display: block; color: #94978e; font: 700 8px monospace; margin-bottom: 5px; }.compare-row > span:last-child::before { content: "ARAISDLOG ADVANTAGE"; display: block; color: #6e8b19; font: 700 8px monospace; margin-bottom: 5px; }

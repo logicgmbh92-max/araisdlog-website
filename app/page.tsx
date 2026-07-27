@@ -127,8 +127,8 @@ export default function Home() {
 
         <div className="hero-visual">
           <div className="registered-mark">
-            <img src="/araisdlog-brand.png" alt="ArAIsDLOG silver shield with circuitry and connected control nodes" />
-            <span>DETERMINISTIC LAYER OF GOVERNANCE</span>
+            <span className="registered-mark-label">REGISTERED PRODUCT MARK</span>
+            <img src="/araisdlog-euipo-logo.jpg" alt="Registered ArAIsDLOG product logo: silver shield, circuitry and connected control nodes" />
           </div>
           <div className="hero-console" aria-label="Product state example">
             <div className="console-top">
