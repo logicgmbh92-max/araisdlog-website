@@ -63,7 +63,7 @@ const sections = [
   },
   {
     title: "10. Intellectual property and trade marks",
-    body: <p>Website content, product design, software, documentation, control models and ArAIsDLOG branding are protected by applicable intellectual-property law. ArAIsDLOG™ is a trade mark of Logik Systems OOD. Third-party product and company names are trade marks of their respective owners and are used only for identification or comparison.</p>,
+    body: <p>Website content, product design, software, documentation, control models and ArAIsDLOG branding are protected by applicable intellectual-property law. ArAIsDLOG™ is a figurative European Union trade mark application of Logik Systems OOD, EUTM application No. 019396329, filed with the European Union Intellectual Property Office (EUIPO) on 17 July 2026. Registration has not yet been claimed. Third-party product and company names are trade marks of their respective owners and are used only for identification or comparison.</p>,
   },
   {
     title: "11. Security and electronic communications",
@@ -94,7 +94,7 @@ export default function DisclaimerPage() {
     <main className="legal-page">
       <header className="legal-nav">
         <Link className="brand" href="/" aria-label="Back to ArAIsDLOG home">
-          <img className="brand-logo" src="/araisdlog-brand.png" alt="" aria-hidden="true" />
+          <img className="brand-logo" src="/araisdlog-euipo-logo-transparent.png" alt="" aria-hidden="true" />
           <span>ArAIs<span>DLOG</span></span>
         </Link>
         <Link href="/">← Back to product</Link>
@@ -124,9 +124,9 @@ export default function DisclaimerPage() {
       </div>
 
       <footer className="legal-footer">
-        <Link className="brand footer-brand" href="/"><img className="brand-logo" src="/araisdlog-brand.png" alt="" aria-hidden="true" /><span>ArAIs<span>DLOG</span></span></Link>
+        <Link className="brand footer-brand" href="/"><img className="brand-logo" src="/araisdlog-euipo-logo-transparent.png" alt="" aria-hidden="true" /><span>ArAIs<span>DLOG</span></span></Link>
         <p>Deterministic control infrastructure for operational AI governance.</p>
-        <div><Link href="/">Product</Link><Link href="/terms">Terms and Conditions</Link><Link href="/disclaimer">Disclaimer</Link><a href="https://www.logik-systems.com" target="_blank" rel="noreferrer">Logik Systems OOD</a></div>
+        <div><Link href="/">Product</Link><Link href="/terms">Terms and Conditions</Link><Link href="/disclaimer">Disclaimer</Link><Link href="/privacy">Privacy</Link><a href="https://www.logik-systems.com" target="_blank" rel="noreferrer">Logik Systems OOD</a></div>
         <small>© 2026 Logik Systems OOD. ArAIsDLOG does not provide legal advice, certification or a guarantee of regulatory conformity.</small>
       </footer>
     </main>
