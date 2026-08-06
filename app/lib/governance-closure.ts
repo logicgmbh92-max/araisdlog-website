@@ -35,6 +35,10 @@ export function canonicalStringify(value: unknown): string {
     .join(",")}}`;
 }
 
+export function canonicalGovernancePolicy(): string {
+  return `${canonicalStringify(GOVERNANCE_POLICY)}\n`;
+}
+
 export function sha256Hex(material: string | Buffer): string {
   return createHash("sha256").update(material).digest("hex");
 }
@@ -45,7 +49,7 @@ export function governanceKeyId(): string {
 }
 
 export function verifyEmbeddedGovernancePolicy(): boolean {
-  const canonical = canonicalStringify(GOVERNANCE_POLICY);
+  const canonical = canonicalGovernancePolicy();
   return (
     sha256Hex(canonical) === GOVERNANCE_POLICY_SHA256 &&
     ed25519Verify(
