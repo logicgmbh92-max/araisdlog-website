@@ -22,7 +22,7 @@ function canonical(value) {
   return `{${Object.keys(value).sort().map((key) => `${JSON.stringify(key)}:${canonical(value[key])}`).join(",")}}`;
 }
 
-const material = canonical(policy);
+const material = `${canonical(policy)}\n`;
 const actualHash = createHash("sha256").update(material).digest("hex");
 if (actualHash !== expectedHash) throw new Error("Governance policy hash mismatch.");
 if (!verify(null, Buffer.from(material), createPublicKey(publicKey), Buffer.from(signature, "base64"))) {
