@@ -15,9 +15,9 @@ export const GOVERNANCE_POLICY = Object.freeze({
 export const GOVERNANCE_POLICY_SHA256 =
   "290afff9850007cc10734415d1fd44ebb5ec0edeeed6aa6e6d803cc01a061eec";
 export const GOVERNANCE_POLICY_SIGNATURE_B64 =
-  "tcjx8uwR/bidUr3hi+040wof84cyiGn+TRUZCM79Ay/Xc8S2nZCz/BVMbVCkN4OpgHCax/mkot+FTMWsIrxWBQ==";
+  "noKrgRuoX84KKePNkfBZLvWD0LT5fJIXt6jji+h2TOspKbgbrPCb8Naa94KEN/sh+2HlYWAMODlXIu4K7+sTBg==";
 export const GOVERNANCE_PUBLIC_KEY_PEM = `-----BEGIN PUBLIC KEY-----
-MCowBQYDK2VwAyEAzyE2U7P0t+VjOD3Y7oXOjy4NH48Z3zVbdljQj/cnbmM=
+MCowBQYDK2VwAyEAaQmb3MB8aAP3XXOg2qpkFz4baRYYFYbtfNhpEcMvw10=
 -----END PUBLIC KEY-----`;
 
 export function canonicalStringify(value: unknown): string {
